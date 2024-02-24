@@ -7,32 +7,32 @@ import { FaHome } from "react-icons/fa";
 const Header = () => {
     const [sidebarOpen, setSidebarOpen] = useState(false);
 
-    // const menus = [
-    //     {
-    //         label: "Home",
-    //         link: "/"
-    //     },
-    //     {
-    //         label: "About",
-    //         link: "/about"
-    //     },
-    //     {
-    //         label: "Services",
-    //         link: "/service"
-    //     },
-    //     {
-    //         label: "Pages",
-    //         link: "/pages"
-    //     },
-    //     {
-    //         label: "Blog",
-    //         link: "/blog"
-    //     },
-    //     {
-    //         label: "Contact",
-    //         link: "/contact"
-    //     },
-    // ];
+    const menus = [
+        {
+            label: "Home",
+            link: "/"
+        },
+        {
+            label: "About",
+            link: "/about"
+        },
+        {
+            label: "Services",
+            link: "/service"
+        },
+        {
+            label: "Pages",
+            link: "/pages"
+        },
+        {
+            label: "Blog",
+            link: "/blog"
+        },
+        {
+            label: "Contact",
+            link: "/contact"
+        },
+    ];
 
     return (
         <>
